@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200054604738",
+    "project_id": "gamereviews-f6ec2",
+    "storage_bucket": "gamereviews-f6ec2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200054604738:android:e6e3a434f85c5094c44c5b",
+        "android_client_info": {
+          "package_name": "com.example.gamereviews"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGI7UcIWZSO7xiKj5-uyK3i4ZzqcVnuOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">gamereviews</string>
+
+        <string name="games">Games</string>
+        <string name="recent_reviews">Recent Reviews</string>
+        <string name="user_reviews">My Reviews</string>
+        <string name="settings">Settings</string>
+
+
+</resources>

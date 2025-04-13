@@ -1,0 +1,70 @@
+
+GamerReviews - Developer Guide
+-------------------------------
+Author: Ibrahim Hrbawe
+Version: 1.0.0
+Date: 2025-04-11
+
+Overview:
+---------
+GamerReviews is a simple and fun Android app that lets users explore games, read their details, and write reviews. The UI is styled with a gaming theme using Jetpack Compose, and all the data is stored in Firebase.
+
+Requirements:
+--------------
+- Android Studio 
+- Firebase (Authentication + Firestore configured)
+- Emulator or real device to test the app
+- Internet connection
+
+Project Structure:
+------------------
+1. MainActivity.kt → Entry point of the app. Handles navigation and bottom navigation bar.
+2. SignInScreen.kt → Login screen using Firebase Authentication.
+3. SignUpScreen.kt → User registration screen.
+4. GamesScreen.kt → Shows a list of games the user can browse.
+5. GameDetailsScreen.kt → Displays game details and a list of reviews.
+6. AddReviewScreen.kt → Screen for users to submit a new review.
+7. EditReviewScreen.kt → Allows users to update or delete a previous review.
+8. MyReviewsScreen.kt → Displays reviews written by the logged-in user.
+9. RecentReviewsScreen.kt → Shows latest reviews submitted across all games.
+10. SettingsScreen.kt → Basic settings like logout (placeholder for more settings).
+11. Review.kt and Game.kt → Data models for representing reviews and game info.
+
+Navigating Between Screens:
+----------------------------
+The app uses NavController and NavHost to switch between screens like:
+- navController.navigate("gameDetails/{gameTitle}")
+- navController.navigate("editReview/{reviewId}")
+
+How to Add a New Screen:
+-------------------------
+If you want to add a new screen:
+1. Create a new Kotlin file (e.g. MyScreen.kt).
+2. Add a Composable inside it:
+   @Composable
+   fun MyScreen(navController: NavController) { ... }
+
+3. Register it inside MainActivity.kt's NavHost:
+   composable("myScreen") { MyScreen(navController) }
+
+4. Add a button or nav action that calls navController.navigate("myScreen")
+
+Firebase and Reviews:
+----------------------
+- All reviews are stored in a Firestore collection called all_reviews.
+- Each review contains:
+  - userId (review owner)
+  - gameTitle
+  - reviewText
+  - rating
+  - timestamp
+- To edit or delete a review, we use its unique reviewId.
+
+Extra Notes:
+-------------
+- Game images are stored in res/drawable.
+- UI uses Orbitron font and a dark neon style (green, blue, red).
+- All UI is built with Jetpack Compose (no XML).
+- The app supports dark mode and modern UI styling.
+
+This guide helps developers understand the project, extend it, or contribute to it easily.

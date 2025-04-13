@@ -1,0 +1,181 @@
+
+/**
+ * Project: GamerReviews
+ * Version: 1.0.0
+ * Author: Ibrahim Hrbawe
+ * Date: 2025-04-11
+ *
+ * Kotlin Source Code Documentation (KDoc)
+ * ----------------------------------------
+ * This document provides easy-to-read summaries for all the Kotlin source files
+ * in the GamerReviews project. Each file is described in a way that makes its purpose clear
+ * to developers reading or maintaining the code.
+ */
+
+/**
+ * File: ExampleInstrumentedTest.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * Supports core functionality or UI logic for the GamerReviews app.
+ */
+
+/**
+ * File: EditReviewScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * This screen lets the user edit a review they’ve already written. The review is fetched from Firestore, displayed for editing, and then updated or deleted based on the user’s choice.
+ */
+
+/**
+ * File: AddReviewScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * This screen allows users to write and submit a new review for a selected game. It includes fields for text, rating, and handles saving the data to Firestore.
+ */
+
+/**
+ * File: BottomNavDestinations.kt
+ * Package: com.example.gamereviews.navigation
+ *
+ * Summary:
+ * Defines the icons and navigation routes used in the bottom navigation bar.
+ */
+
+/**
+ * File: Game.kt
+ * Package: com.example.gamereviews.com.example.gamereviews
+ *
+ * Summary:
+ * Represents a game in the app. It includes all important information like title, developer, publisher, image, and description.
+ */
+
+/**
+ * File: GameDetailsScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * Displays detailed information about a game, such as its name, image, release date, developer, publisher, and a description. Users can also view recent reviews and add their own.
+ */
+
+/**
+ * File: GamesScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * Shows a list of available games. Each game can be clicked to view more details including reviews and metadata.
+ */
+
+/**
+ * File: MainActivity.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * This is the main entry point of the app. It sets up Firebase authentication, initializes the navigation controller, and defines the bottom navigation bar used to switch between different sections of the app.
+ */
+
+/**
+ * File: RecentReviewsScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * Shows all the latest reviews submitted by users across all games. It’s a feed-style screen sorted by the most recent first.
+ */
+
+/**
+ * File: Review.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * This is the structure for user-submitted reviews. It holds things like the game title, user ID, rating, review text, and when it was written.
+ */
+
+/**
+ * File: ReviewRepository.kt
+ * Package: com.example.gamereviews.com.example.gamereviews
+ *
+ * Summary:
+ * Manages connection to Firebase services like authentication or database.
+ */
+
+/**
+ * File: SettingsScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * This is a basic settings screen where the user can access preferences like logging out. It’s a placeholder for future settings features.
+ */
+
+/**
+ * File: SignInScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * Provides the login screen where users can sign in with email and password using Firebase Authentication. Includes navigation to the sign-up screen.
+ */
+
+/**
+ * File: SignUpScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * This screen lets new users register by entering an email and password. It creates an account via Firebase and stores user data.
+ */
+
+/**
+ * File: UserReviewsScreen.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * Displays all reviews created by the current user. Users can edit or delete reviews directly from this screen if they change their mind.
+ */
+
+/**
+ * File: Color.kt
+ * Package: com.example.gamereviews.ui.theme
+ *
+ * Summary:
+ * This file supports application logic or UI in the GamerReviews project.
+ */
+
+/**
+ * File: GamereviewsTheme.kt
+ * Package: com.example.gamereviews.ui.theme
+ *
+ * Summary:
+ * This file contains Jetpack Compose UI components used within the GamerReviews app.
+ */
+
+/**
+ * File: logo.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * This file contains Jetpack Compose UI components used within the GamerReviews app.
+ */
+
+/**
+ * File: Theme.kt
+ * Package: com.example.gamereviews.ui.theme
+ *
+ * Summary:
+ * This file contains Jetpack Compose UI components used within the GamerReviews app.
+ */
+
+/**
+ * File: Type.kt
+ * Package: com.example.gamereviews.ui.theme
+ *
+ * Summary:
+ * This file supports application logic or UI in the GamerReviews project.
+ */
+
+/**
+ * File: ExampleUnitTest.kt
+ * Package: com.example.gamereviews
+ *
+ * Summary:
+ * This file supports application logic or UI in the GamerReviews project.
+ */
